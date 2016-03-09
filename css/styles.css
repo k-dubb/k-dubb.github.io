@@ -1,16 +1,15 @@
-section.module.parallax-1, section.module.parallax-7{
+section.module.parallax-1{
     min-height: 650px !important;
 }
-section.module.parallax-2{
-    min-height: 550px !important;
-}
-section.module.parallax-5{
+section.module.parallax-3{
     padding-top: 40px;
     padding-bottom: 50px;
     min-height: 650px !important;
+    position: relative;
 }
-section.module.parallax-6{
+section.module.parallax-2, section.module.parallax-4{
     min-height: 600px !important;
+    position: relative;
 }
 section.module.parallax {
     min-height: 600px;
