@@ -1,4 +1,4 @@
-section.module.parallax-1{
+section.module.parallax-1, section.module.parallax-7{
     min-height: 650px !important;
 }
 section.module.parallax-2{
@@ -11,9 +11,6 @@ section.module.parallax-5{
 }
 section.module.parallax-6{
     min-height: 600px !important;
-}
-section.module.parallax-7{
-    min-height: 650px !important;
 }
 section.module.parallax {
     min-height: 600px;
@@ -45,14 +42,14 @@ section.module.parallax-1 h2 {
     margin-top: 0px;
 }
 section.module.content-1 {
-  padding-bottom: 0px;
-  min-height: 600px;
+    padding-bottom: 0px;
+    min-height: 580px;
 }
 section.module.content {
-  padding-bottom: 0px;
-  padding-top: 40px;
-  min-height: 600px;
-  width: 100%;
+    padding-bottom: 0px;
+    padding-top: 40px;
+    min-height: 600px;
+    width: 100%;
 }
 #pic{
     position: absolute;
@@ -84,17 +81,6 @@ a.item:hover{
     font-size: 22px;
     font-family: 'Raleway', sans-serif;  
 }
-#london{
-  border-radius: 50%;
-  height: 210px;
-  width: 210px;
-  margin-bottom: 10px;
-  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-}
-#ten{
-    margin-top: -20px;
-    padding: 0 70px;
-}
 h3{
     color: #3f3f40;
     font-size: 23px;
@@ -105,18 +91,6 @@ h3{
 }
 .underline{
     text-decoration: underline;
-}
-ul{
-    margin-top: 60px;
-    padding: 0px;
-}
-li{
-    font-size: 26px;
-    color: #373F51;
-    font-family: 'Raleway', sans-serif;
-    list-style-type: none;
-    line-height: 1.5em;
-    text-align: center;
 }
 #romeSection{
     margin: 120px 40px 0px 40px;
@@ -214,7 +188,7 @@ a.darken:hover img {
     margin-left: auto;
     display: block;
     margin-top: 60px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 #filler{
     margin: 30px 150px;
@@ -223,113 +197,9 @@ a.darken:hover img {
 #projects{
     margin: 20px;
 }
-.step{
-    width: 200px;
-    height: auto;
-}
-p#seeit{
-    position: relative !important;
-}
-.ui.steps .step p{
-    text-align: left;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #3f3f40;    
-}
-.ui.steps .step .title {
-    font-size: 20px;
-    color: #3f3f40;
-    text-align: left;
-    text-decoration: underline;
-    padding: 5px;
-}
-.ui.steps .step .description{
-    font-size: 16px;
-    line-height: 1.4;
-    color: #3f3f40;
-}
-.ui.steps .step{
-    width: 400px;
-    height: auto;
-    padding: 20px;
-    text-align: left !important;
-    position: relative;
-}
-.ui.steps .active.step{
-    width: 300px;
-    background-color: white;
-}
-.ui.steps.projects2{
-    float: right;
-}
-.ui.steps .link.step, .ui.steps a.step:hover{
-    background-color: #dadbdc !important;
-}
-.card img{
-    border: 14px solid #f8f8f8;
-    border-bottom: 70px solid #f8f8f8;
-    box-shadow: 2px 2px 2px #D8D8D8;
-    height: 350px;
-    width: 300px;
-}
-#card-img:hover{
-    position: relative;
-    -webkit-filter: contrast(90%) brightness(120%) saturate(110%);
-    filter: contrast(90%) brightness(120%) saturate(110%);
-}
-.card{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 div{
   margin: 0 auto;
   display: block;
-}
-#left, #middle, #right{
-    margin: 140px 15px 0 15px;
-    -ms-transform: rotate(-1deg); 
-    -webkit-transform: rotate(-1deg); 
-    transform: rotate(-1deg);
-}
-#middle{
-    -ms-transform: rotate(2deg); 
-    -webkit-transform: rotate(2deg); 
-    transform: rotate(2deg);
-}
-#right{
-    -ms-transform: rotate(-1deg); 
-    -webkit-transform: rotate(-1deg); 
-    transform: rotate(-1deg);
-}
-p#image{
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    bottom: 20px;
-    font-size: 22px;
-    font-family:'Raleway', sans-serif !important;
-    display: block;
-    color: #3f3f40;
-}
-#pin1, #pin2, #pin3{
-    width: 128px;
-    height: 128px;
-    z-index: 3;
-    position: absolute;
-    top: 0px;
-}
-#pin1{
-    margin: -40px 0 0 -30px;
-    left: 0px;
-}
-#pin2{
-    right: 0px;
-    margin: -40px -30px 0 0;
-}
-#pin3{
-    left: 0px;
-    margin: -40px 0 0 -30px;
 }
 #contactMe{
     height: 150px;
@@ -339,8 +209,10 @@ p#image{
 }
 #foot{
     margin: auto;
-    /*width: 25%;*/
     padding-top: 25px;
+}
+div#contactMe.ui.centered.stackable.grid{
+    margin: 0;
 }
 .item2{
     padding: 15px;
