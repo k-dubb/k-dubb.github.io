@@ -271,23 +271,21 @@ div#contactMe.ui.centered.stackable.grid{
     color: #E4FDE1;
 }
 /* Responsive */ 
-@media only screen and (max-device-width: 768px) {
-/*    #parall{
-        display: none !important;
-    }
-    #parallaxpic, #parallaxpic2, #pic{
-        visibility: visible !important;
-    }*/
+/*@media only screen and (max-device-width: 768px) {
     #hiddenHeader{
+        display: block !important;
         visibility: visible !important;
     }
-}
-@media only screen and (max-device-width: 1200px) {
+}*/
+@media only screen and (max-device-width: 1024px) {
     #rome{
         margin-top: 220px;
     }
-    #aboutSection, #journeySection{
+    #aboutSection{
         margin-right: 40px !important;
+    }
+    #journeySection{
+        margin-right: 100px !important;
     }
     #pHeader{
         margin-top: 60px;
@@ -311,6 +309,9 @@ div#contactMe.ui.centered.stackable.grid{
     #project{
         margin: 20px 0px 0px 0px;
     }
+    #flying{
+        height: 340px;
+    }
 /*    section.module.content-1 {
         margin-top: 20px;
     }*/
@@ -321,7 +322,8 @@ div#contactMe.ui.centered.stackable.grid{
         display: none !important;
     }
     #hiddenHeader{
-        visibility: visible !important;
+        /*visibility: visible !important;*/
+        display: block !important;
     }
 /*    #parallaxpic, #parallaxpic2, #pic{
         visibility: visible !important;
@@ -329,7 +331,8 @@ div#contactMe.ui.centered.stackable.grid{
 }
 @media only screen and (max-device-width: 2400px) {
     #parall{
-        visibility: visible !important;
+        /*visibility: visible !important;*/
+        display: block;
     }
     #parallaxpic, #parallaxpic2{
         display: none !important;
@@ -339,6 +342,7 @@ div#contactMe.ui.centered.stackable.grid{
         /*height: */
     }
     #hiddenHeader{
-        display: none !important;
+        display: none;
+        /*visibility: hidden;*/
     }
 }
