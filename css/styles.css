@@ -141,7 +141,7 @@ h3{
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 60px;
     border-radius: 2%;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);    
 }
@@ -253,13 +253,15 @@ div{
     background-color: #3f3f40 !important;
     width: 100%;
     padding: 0 475px;
+    margin: 0px;
 }
 #foot{
     margin: auto;
     padding-top: 25px;
 }
 div#contactMe.ui.centered.stackable.grid{
-    margin: 0;
+    margin: 0px !important;
+    width: 100% !important;
 }
 .item2{
     padding: 15px;
@@ -284,6 +286,7 @@ div#contactMe.ui.centered.stackable.grid{
     }
     #contactMe{
         padding: 0 325px;
+        margin: 0px;
     }
     #filler{
         margin: 30px 0px;
@@ -316,6 +319,16 @@ div#contactMe.ui.centered.stackable.grid{
     #hiddenHeader{
         display: block !important;
     }
+    a.item{
+        font-size: 30px;
+    }
+    .ui.menu.eight.item .item{
+        width: 20%;
+    }   
+    .ui.grid>[class*="twelve wide"].column{
+        width: 100% !important;
+    }
+
 }
 @media only screen and (max-device-width: 2400px) {
     #parall{
@@ -329,5 +342,5 @@ div#contactMe.ui.centered.stackable.grid{
     }
     #hiddenHeader{
         display: none;
-    }
+    }     
 }
