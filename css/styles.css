@@ -2,7 +2,13 @@ section.module.parallax-1{
     min-height: 650px !important;
 }
 section.module.parallax-3{
+/*    padding-top: 40px;
+    padding-bottom: 50px;*/
     min-height: 600px !important;
+}
+#laptop, #austinsky{
+    width: 100%;
+    height: 650px
 }
 section.module.parallax-2, section.module.parallax-4{
     min-height: 600px !important;
@@ -58,6 +64,7 @@ section.module.content {
 }
 #pic{
     position: absolute;
+    min-width: 650px; 
 }
 .intro{
     margin-top: -50px;
@@ -234,8 +241,16 @@ div#contactMe.ui.centered.stackable.grid{
     color: #E4FDE1;
 }
 /* Responsive */ 
-@media only screen and (max-device-width: 1024px) {
-    #romeSection{
+@media only screen and (max-device-width: 768px) {
+    #parall{
+        display: none !important;
+    }
+    #parallaxpic, #parallaxpic2, #pic{
+        visibility: visible !important;
+    }
+}
+@media only screen and (max-device-width: 1200px) {
+/*    #romeSection{
         margin: 170px 40px 40px 0px !important;
         height: 450px;
     }
@@ -244,7 +259,7 @@ div#contactMe.ui.centered.stackable.grid{
     }
     #romeSec{
         margin-left: 100px !important;
-    }
+    }*/
     #contactMe{
         padding: 0 325px;
     }
@@ -252,10 +267,28 @@ div#contactMe.ui.centered.stackable.grid{
         margin: 30px 0px;
         padding: 0px;    
     }
-    section.module.content-1 {
+/*    section.module.content-1 {
         margin-top: 20px;
-    }
+    }*/
     #oneCol{
         padding-left: 10px !important;
+    }
+    #parall{
+        display: none !important;
+    }
+    #parallaxpic, #parallaxpic2, #pic{
+        visibility: visible !important;
+    }
+}
+@media only screen and (max-device-width: 2400px) {
+    #parall{
+        visibility: visible !important;
+    }
+    #parallaxpic, #parallaxpic2{
+        display: none !important;
+    }
+    #pic{
+        display: none !important;
+        /*height: */
     }
 }
