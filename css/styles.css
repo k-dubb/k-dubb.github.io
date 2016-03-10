@@ -258,6 +258,7 @@ div{
 #foot{
     margin: auto;
     padding-top: 25px;
+    text-align: center;
 }
 div#contactMe.ui.centered.stackable.grid{
     margin: 0px !important;
