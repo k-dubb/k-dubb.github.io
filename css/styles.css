@@ -2,8 +2,6 @@ section.module.parallax-1{
     min-height: 650px !important;
 }
 section.module.parallax-3{
-/*    padding-top: 40px;
-    padding-bottom: 50px;*/
     min-height: 600px !important;
 }
 #laptop, #austinsky{
@@ -144,7 +142,6 @@ h3{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    /*display: block;*/
     border-radius: 2%;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);    
 }
@@ -271,24 +268,19 @@ div#contactMe.ui.centered.stackable.grid{
     color: #E4FDE1;
 }
 /* Responsive */ 
-/*@media only screen and (max-device-width: 768px) {
-    #hiddenHeader{
-        display: block !important;
-        visibility: visible !important;
-    }
-}*/
 @media only screen and (max-device-width: 1024px) {
     #rome{
-        margin-top: 220px;
+        margin-top: 300px;
     }
     #aboutSection{
         margin-right: 40px !important;
+        margin-bottom: 40px;
     }
     #journeySection{
-        margin-right: 100px !important;
+        margin-right: 150px !important;
     }
     #pHeader{
-        margin-top: 60px;
+        margin-top: 100px;
     }
     #contactMe{
         padding: 0 325px;
@@ -312,9 +304,6 @@ div#contactMe.ui.centered.stackable.grid{
     #flying{
         height: 340px;
     }
-/*    section.module.content-1 {
-        margin-top: 20px;
-    }*/
     #oneCol{
         padding-left: 10px !important;
     }
@@ -322,16 +311,11 @@ div#contactMe.ui.centered.stackable.grid{
         display: none !important;
     }
     #hiddenHeader{
-        /*visibility: visible !important;*/
         display: block !important;
     }
-/*    #parallaxpic, #parallaxpic2, #pic{
-        visibility: visible !important;
-    }*/
 }
 @media only screen and (max-device-width: 2400px) {
     #parall{
-        /*visibility: visible !important;*/
         display: block;
     }
     #parallaxpic, #parallaxpic2{
@@ -339,10 +323,8 @@ div#contactMe.ui.centered.stackable.grid{
     }
     #pic{
         display: none !important;
-        /*height: */
     }
     #hiddenHeader{
         display: none;
-        /*visibility: hidden;*/
     }
 }
