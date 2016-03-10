@@ -278,15 +278,14 @@ div#contactMe.ui.centered.stackable.grid{
         margin-right: 40px !important;
         margin-bottom: 40px;
     }
-/*    #journeySection{
-        margin-right: 150px !important;
-    }*/
     #pHeader{
         margin-top: 80px;
+        margin-bottom: 40px;
     }
     #contactMe{
-        padding: 0 325px;
-        margin: 0px;
+        padding: 25px 275px;
+        margin: 0px auto;
+        width: 100%;
     }
     #filler{
         margin: 30px 0px;
@@ -297,6 +296,7 @@ div#contactMe.ui.centered.stackable.grid{
     }
     #romeSection h3{
         font-size: 28px !important;
+        font-weight: normal;
     }
     #romeSection{
         margin: 120px 0px 0px 0px !important;
@@ -321,6 +321,7 @@ div#contactMe.ui.centered.stackable.grid{
     }
     a.item{
         font-size: 30px;
+        font-weight: normal;
     }
     .ui.menu.eight.item .item{
         width: 20%;
@@ -328,7 +329,21 @@ div#contactMe.ui.centered.stackable.grid{
     .ui.grid>[class*="twelve wide"].column{
         width: 100% !important;
     }
-
+    .ui.menu .item:before{
+        width: 4px;
+    }
+    #aboutMe{
+        margin-top: 40px;
+    }
+    #project2{
+        margin-top: 60px;
+    }
+    .fa-2x{
+        font-size: 3em;
+    }
+    .item2{
+        padding: 20px;
+    }
 }
 @media only screen and (max-device-width: 2400px) {
     #parall{
