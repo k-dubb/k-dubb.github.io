@@ -2,14 +2,20 @@ section.module.parallax-1{
     min-height: 650px !important;
 }
 section.module.parallax-3{
-    padding-top: 40px;
-    padding-bottom: 50px;
-    min-height: 650px !important;
-    position: relative;
+    min-height: 600px !important;
 }
 section.module.parallax-2, section.module.parallax-4{
     min-height: 600px !important;
-    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+section.module.parallax-5{
+    min-height: 600px !important;
 }
 section.module.parallax {
     min-height: 600px;
@@ -45,10 +51,10 @@ section.module.content-1 {
     min-height: 580px;
 }
 section.module.content {
-    padding-bottom: 0px;
-    padding-top: 40px;
-    min-height: 600px;
-    width: 100%;
+  padding-bottom: 0px;
+  padding-top: 40px;
+  min-height: 600px;
+  width: 100%;
 }
 #pic{
     position: absolute;
@@ -79,6 +85,10 @@ a.item:hover{
     color: white;
     font-size: 22px;
     font-family: 'Raleway', sans-serif;  
+}
+#ten{
+    margin-top: -20px;
+    padding: 0 70px;
 }
 h3{
     color: #3f3f40;
@@ -137,7 +147,7 @@ section.module.parallax-4 h1 {
     border-radius: 2%;
 }
 #pHeader{
-    margin-top: 10px;
+    margin-top: 50px;
 }
 a.darken{
     position: relative;  
@@ -190,11 +200,15 @@ a.darken:hover img {
     margin-bottom: 80px;
 }
 #filler{
-    margin: 30px 150px;
+    margin: 0px 150px 50px 150px;
     padding: 15px;
 }
 #projects{
     margin: 20px;
+}
+.step{
+    width: 200px;
+    height: auto;
 }
 div{
   margin: 0 auto;
@@ -221,15 +235,6 @@ div#contactMe.ui.centered.stackable.grid{
 }
 /* Responsive */ 
 @media only screen and (max-device-width: 1024px) {
-    #right {
-        visibility: hidden !important;
-    }
-    #left{
-        margin-right: 160px !important;
-    }
-    #middle{
-        margin-left: 160px !important;
-    }
     #romeSection{
         margin: 170px 40px 40px 0px !important;
         height: 450px;
