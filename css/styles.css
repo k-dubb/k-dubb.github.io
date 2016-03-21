@@ -270,6 +270,10 @@ div#contactMe.ui.centered.stackable.grid{
 .item2:hover{
     color: #E4FDE1;
 }
+#more{
+    font-weight: bold;
+    font-size: 20px;
+}
 /* Responsive */ 
 @media only screen and (max-device-width: 1024px) {
     #rome{
