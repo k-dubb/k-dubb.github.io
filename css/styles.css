@@ -87,9 +87,7 @@ a.item:hover{
     padding: 10px;
 }
 .item2{
-    color: white;
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;  
+    color: white; 
 }
 #ten{
     margin-top: -20px;
@@ -252,7 +250,7 @@ div{
     height: 150px;
     background-color: #3f3f40 !important;
     width: 100%;
-    padding: 0 475px;
+    padding: 0 50px;
     margin: 0px;
 }
 #foot{
@@ -272,7 +270,11 @@ div#contactMe.ui.centered.stackable.grid{
 }
 #more{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
+    text-decoration: underline;
+}
+#more a{
+    color: black;
 }
 /* Responsive */ 
 @media only screen and (max-device-width: 1024px) {
