@@ -366,3 +366,88 @@ div#contactMe.ui.centered.stackable.grid{
         display: none;
     }     
 }
+/* css navbar */
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul {
+    width: 100%;
+    background-color: white;
+    /*height: 70px;*/
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding-left: 8%;
+    padding-right: 8%;
+    list-style: none;
+    display: inline-table;
+    border: 1px solid rgba(34,36,38,.15);
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+}
+
+nav ul:after {
+    content: ""; 
+    clear: both; 
+    display: block;
+}
+nav ul li {
+    float: left; 
+    font-weight: bold !important;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0px;
+    color: #3f3f40;
+    position: relative;
+    font-family: 'Raleway', sans-serif; 
+    background-color: white; 
+    width: 20%;
+}
+nav ul li li{
+    width: 100%;
+    padding: 0;
+}
+nav ul li:hover {
+    background-color: #f3f4f5;
+    color: #3f3f40;
+}
+nav ul li:hover a {
+    background-color: #f3f4f5;
+    color: #3f3f40;
+}
+nav ul li li:hover a {
+    color: #3f3f40;
+    background-color: white;
+}
+nav ul li a {
+    display: block; 
+    padding: 25px 40px;
+    color: #3f3f40; 
+    text-decoration: none;
+    background-color: white; 
+    border-right: 1px solid #000;
+}
+nav ul li:last-child a {
+    border:none;
+}
+
+nav ul ul {
+    background-color: white; 
+    padding: 0;
+    position: absolute; 
+    top: 100%;
+}
+nav ul ul li {
+    float: none; 
+    border-top: 1px solid #3f3f40;
+    border-bottom: 1px solid #3f3f40;
+    position: relative;
+    background-color: white; 
+}
+nav ul ul li:last-child{
+    border-bottom: none;
+} 
