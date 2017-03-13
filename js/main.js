@@ -28,6 +28,10 @@ $(document).ready(function() {
         }
     });
 
+    $('.carousel').carousel({
+        interval: 8000
+    });
+
     $('#mobile-nav .navigation a').click(function() {       
         $('.btn-navbar').click(); 
         $('.navbar-toggle').click();
