@@ -28,13 +28,10 @@ $(document).ready(function() {
         }
     });
 
-<<<<<<< HEAD
-=======
     $('.carousel').carousel({
         interval: 8000
     });
 
->>>>>>> 8efecf3e834eef84bd3315b90506760fd849cbe8
     $('#mobile-nav .navigation a').click(function() {       
         $('.btn-navbar').click(); 
         $('.navbar-toggle').click();
@@ -76,8 +73,4 @@ $(document).ready(function() {
         }, 1000);
     });
   
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 8efecf3e834eef84bd3315b90506760fd849cbe8

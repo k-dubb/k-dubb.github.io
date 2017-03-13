@@ -228,7 +228,6 @@ li {
     text-transform: uppercase;
     color: #3f3f40;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-<<<<<<< HEAD
     text-align: center;
     padding-bottom: 20px;
 }
@@ -290,69 +289,6 @@ section.module.parallax-1{
 section.module.parallax-3{
     min-height: 600px !important;
 }
-=======
-    text-align: center;
-    padding-bottom: 20px;
-}
-.about-container p {
-    color: #3f3f40;
-    font-size: 16px;
-    line-height: 1.5em;
-    text-align: justify;
-    font-family: 'Raleway', sans-serif;
-    font-weight: normal;
-}
-.quote {
-    margin: 0;
-}
-.quote h2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: normal;
-    color: #3f3f40;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    padding-bottom: 20px;
-}
-.quote p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    color: #3f3f40;
-    text-align: center;
-    padding-bottom: 20px;
-}
-.carousel-control.left, .carousel-control.right {
-    background-image: none
-}
-.carousel-control {
-    width: 10%;
-}
-.carousel-inner .item {
-    height: 100%;
-    padding: 10% 10%;
-}
-.glyphicon {
-    color: #3f3f40;
-}
-section.module.parallax {
-    min-height: 600px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-section.module.parallax-1{
-    min-height: 650px !important;
-}
-section.module.parallax-3{
-    min-height: 600px !important;
-}
->>>>>>> 8efecf3e834eef84bd3315b90506760fd849cbe8
 section.module.content {
     padding-bottom: 0px;
     padding-top: 40px;
@@ -448,8 +384,4 @@ h2#skills {
     #mobile-nav {
         display: none;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 8efecf3e834eef84bd3315b90506760fd849cbe8
